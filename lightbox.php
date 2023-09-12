@@ -57,7 +57,7 @@ class Tailored_Lightbox {
 
 jQuery(document).ready(function($) {
 	// Apply to links to images.
-	$('a[href$=".webp"], a[href$=".jpeg"], a[href$=".png"], a[href$=".jpg"]').attr('rel','fancybox');
+	// $('a[href$=".webp"], a[href$=".jpeg"], a[href$=".png"], a[href$=".jpg"]').attr('rel','fancybox');
 	// Captions.
 	$('a[rel="fancybox"]').each(function(i) {
 		var caption = false;
